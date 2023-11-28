@@ -20,7 +20,8 @@ public class ServidorBatePapo {
 
     private void clientConnectionLoop() throws IOException {
         System.out.println("Aguardando conexao de um cliente!");
-        while (true) {
+        for (int i = 0; i < 2; i++) {
+
             SocketCliente clientSocket = new SocketCliente(serverSocket.accept());
             clients.add(clientSocket);
             new Thread(() -> clientMessageLoop(clientSocket)).start(); // Expressão Lambda
@@ -62,7 +63,6 @@ public class ServidorBatePapo {
         catch(IOException ex)
         {   System.out.println("Erro ao iniciar o servidor: " + ex.getMessage());
         }
-        System.out.println("Servidor finalizado!");
         
     }
 }

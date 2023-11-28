@@ -37,10 +37,6 @@ public class ClientFrame extends javax.swing.JFrame {
         }
     });
 
-
-    /**
-     * Creates new form ServidorFrame
-     */
     public ClientFrame() {
         super("Mensagem para servidor");
         initComponents();
