@@ -137,6 +137,7 @@ public class ClientFrame extends javax.swing.JFrame {
         //clientSocket.close();
         //jTextAreaMensagens.append("Finalizando Conexao!\n");
         JOptionPane.showMessageDialog(null, "Saindo do programa!");
+        clientSocket.sendMsg("Cliente encessado a conexao!");
         System.exit(0);
     }//GEN-LAST:event_jButtonSairActionPerformed
 
