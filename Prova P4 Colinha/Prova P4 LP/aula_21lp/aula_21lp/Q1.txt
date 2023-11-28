@@ -1,0 +1,6 @@
+B) Aparece o erro "Erro no Cliente: Connection refused: connect" porque o servidor não existe.
+C) Crie o servidor e aguarde um cliente ser conectado.
+D) O cliente e o servidor serão conectados, e todas as mensagens que o servidor receber do cliente serão enviadas de volta para o cliente. Quando a opção "sair" for escolhida, o cliente e o servidor serão encerrados.
+E) O segundo cliente não recebe as mensagens do servidor, e o servidor apenas ecoa as mensagens do primeiro.
+F) O primeiro cliente e o servidor serão conectados, e todas as mensagens que o servidor receber do cliente serão enviadas de volta para o cliente. Quando a opção "sair" for escolhida, o cliente e o servidor serão encerrados.
+G) Ocorre o erro "Erro: Address already in use: bind" porque o servidor já está em uso.

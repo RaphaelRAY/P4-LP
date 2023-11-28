@@ -1,0 +1,19 @@
+b) Aparece "Erro ao iniciar o cliente: Connection refused: connect. Cliente finalizado!" porque não conseguiu conectar ao servidor, pois este não estava iniciado.
+
+c) Inicia o servidor, que fica aguardando a conexão do cliente.
+
+d) O cliente se conecta ao servidor e toda mensagem enviada é recebida pelo servidor.
+
+f) O cliente se conecta ao servidor e o servidor recebe a mensagem de ambos os clientes.
+
+g) O cliente se conecta ao servidor e o servidor recebe a mensagem de todos os três clientes.
+
+h) O servidor recebe e identifica cada mensagem dos três clientes.
+
+i) Os clientes são desconectados do servidor, e o servidor reconhece quem foi desconectado.
+
+j) Ele não inicia porque o servidor já está usando o endereço (address).
+
+
+
+

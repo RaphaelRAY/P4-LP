@@ -1,0 +1,8 @@
+1b) Erro: Connection refused: connect
+inicia um cliente que tenta se conectar ao servidor porem o servidor nao existe e da esse erro.
+1c) Ele inicia o servidor e espera a mensagem do cliente.
+1d) Estabelece uma conexão entre o servidor e o cliente. Você pode digitar mensagens no cliente, que serão enviadas ao servidor. O servidor provavelmente exibirá essas mensagens em sua saída.
+1e) Enquanto o servidor estiver em execução, ambas as instâncias do cliente tentarão se conectar ao servidor. Você pode digitar mensagens em ambas as instâncias do cliente, e o servidor receberá e exibirá essas mensagens so da primeira instacia.
+1f) Se você encerrar uma das instâncias do cliente, a outra continuará funcionando normalmente, e as mensagens que você digitar na instância restante continuarão sendo enviadas ao servidor e exibidas na saída do servidor.
+1g) Erro: Address already in use: JVM_Bind
+O servidor tenta ser criado porem como o address esta sendo usado ele nao funcionará.
