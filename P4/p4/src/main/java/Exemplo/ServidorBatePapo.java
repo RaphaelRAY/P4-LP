@@ -26,6 +26,7 @@ public class ServidorBatePapo {
             clients.add(clientSocket);
             new Thread(() -> clientMessageLoop(clientSocket)).start(); // Expressão Lambda
         }
+        serverSocket.close();
     }
 
     private void clientMessageLoop(SocketCliente clientSocket)
